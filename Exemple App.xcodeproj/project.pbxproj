@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A196C55B15E391010064E9E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A196C55A15E391010064E9E6 /* UIKit.framework */; };
+		A196C55D15E391010064E9E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A196C55C15E391010064E9E6 /* Foundation.framework */; };
+		A196C55F15E391010064E9E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A196C55E15E391010064E9E6 /* CoreGraphics.framework */; };
+		A196C56515E391020064E9E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A196C56315E391020064E9E6 /* InfoPlist.strings */; };
+		A196C56715E391020064E9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C56615E391020064E9E6 /* main.m */; };
+		A196C56B15E391020064E9E6 /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C56A15E391020064E9E6 /* SGAppDelegate.m */; };
+		A196C56E15E391020064E9E6 /* SGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C56D15E391020064E9E6 /* SGFirstViewController.m */; };
+		A196C57015E391020064E9E6 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A196C56F15E391020064E9E6 /* first.png */; };
+		A196C57215E391020064E9E6 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A196C57115E391020064E9E6 /* first@2x.png */; };
+		A196C57515E391020064E9E6 /* SGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C57415E391020064E9E6 /* SGSecondViewController.m */; };
+		A196C57715E391020064E9E6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A196C57615E391020064E9E6 /* second.png */; };
+		A196C57915E391020064E9E6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A196C57815E391020064E9E6 /* second@2x.png */; };
+		A196C57C15E391020064E9E6 /* SGFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A196C57A15E391020064E9E6 /* SGFirstViewController_iPhone.xib */; };
+		A196C57F15E391020064E9E6 /* SGFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A196C57D15E391020064E9E6 /* SGFirstViewController_iPad.xib */; };
+		A196C58215E391020064E9E6 /* SGSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A196C58015E391020064E9E6 /* SGSecondViewController_iPhone.xib */; };
+		A196C58515E391020064E9E6 /* SGSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A196C58315E391020064E9E6 /* SGSecondViewController_iPad.xib */; };
+		A196C59715E391640064E9E6 /* Sencha.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A196C58C15E391640064E9E6 /* Sencha.bundle */; };
+		A196C59815E391640064E9E6 /* SGAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C58E15E391640064E9E6 /* SGAxis.m */; };
+		A196C59915E391640064E9E6 /* SGBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C59015E391640064E9E6 /* SGBase.m */; };
+		A196C59A15E391640064E9E6 /* SGLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C59215E391640064E9E6 /* SGLine.m */; };
+		A196C59B15E391640064E9E6 /* SGPie.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C59415E391640064E9E6 /* SGPie.m */; };
+		A196C59C15E391640064E9E6 /* SGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C59615E391640064E9E6 /* SGWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A196C55615E391010064E9E6 /* Exemple App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exemple App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A196C55A15E391010064E9E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A196C55C15E391010064E9E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A196C55E15E391010064E9E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A196C56215E391010064E9E6 /* Exemple App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exemple App-Info.plist"; sourceTree = "<group>"; };
+		A196C56415E391020064E9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A196C56615E391020064E9E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A196C56815E391020064E9E6 /* Exemple App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exemple App-Prefix.pch"; sourceTree = "<group>"; };
+		A196C56915E391020064E9E6 /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		A196C56A15E391020064E9E6 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		A196C56C15E391020064E9E6 /* SGFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGFirstViewController.h; sourceTree = "<group>"; };
+		A196C56D15E391020064E9E6 /* SGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGFirstViewController.m; sourceTree = "<group>"; };
+		A196C56F15E391020064E9E6 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		A196C57115E391020064E9E6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		A196C57315E391020064E9E6 /* SGSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSecondViewController.h; sourceTree = "<group>"; };
+		A196C57415E391020064E9E6 /* SGSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSecondViewController.m; sourceTree = "<group>"; };
+		A196C57615E391020064E9E6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		A196C57815E391020064E9E6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		A196C57B15E391020064E9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGFirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		A196C57E15E391020064E9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGFirstViewController_iPad.xib; sourceTree = "<group>"; };
+		A196C58115E391020064E9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGSecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		A196C58415E391020064E9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGSecondViewController_iPad.xib; sourceTree = "<group>"; };
+		A196C58C15E391640064E9E6 /* Sencha.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Sencha.bundle; path = SGWebViewController/Sencha.bundle; sourceTree = "<group>"; };
+		A196C58D15E391640064E9E6 /* SGAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGAxis.h; path = SGWebViewController/SGAxis.h; sourceTree = "<group>"; };
+		A196C58E15E391640064E9E6 /* SGAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGAxis.m; path = SGWebViewController/SGAxis.m; sourceTree = "<group>"; };
+		A196C58F15E391640064E9E6 /* SGBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGBase.h; path = SGWebViewController/SGBase.h; sourceTree = "<group>"; };
+		A196C59015E391640064E9E6 /* SGBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGBase.m; path = SGWebViewController/SGBase.m; sourceTree = "<group>"; };
+		A196C59115E391640064E9E6 /* SGLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGLine.h; path = SGWebViewController/SGLine.h; sourceTree = "<group>"; };
+		A196C59215E391640064E9E6 /* SGLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGLine.m; path = SGWebViewController/SGLine.m; sourceTree = "<group>"; };
+		A196C59315E391640064E9E6 /* SGPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGPie.h; path = SGWebViewController/SGPie.h; sourceTree = "<group>"; };
+		A196C59415E391640064E9E6 /* SGPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGPie.m; path = SGWebViewController/SGPie.m; sourceTree = "<group>"; };
+		A196C59515E391640064E9E6 /* SGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGWebViewController.h; path = SGWebViewController/SGWebViewController.h; sourceTree = "<group>"; };
+		A196C59615E391640064E9E6 /* SGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGWebViewController.m; path = SGWebViewController/SGWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A196C55315E391010064E9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A196C55B15E391010064E9E6 /* UIKit.framework in Frameworks */,
+				A196C55D15E391010064E9E6 /* Foundation.framework in Frameworks */,
+				A196C55F15E391010064E9E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A196C54B15E391010064E9E6 = {
+			isa = PBXGroup;
+			children = (
+				A196C58B15E391100064E9E6 /* SGWebViewController */,
+				A196C56015E391010064E9E6 /* Exemple App */,
+				A196C55915E391010064E9E6 /* Frameworks */,
+				A196C55715E391010064E9E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A196C55715E391010064E9E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A196C55615E391010064E9E6 /* Exemple App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A196C55915E391010064E9E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A196C55A15E391010064E9E6 /* UIKit.framework */,
+				A196C55C15E391010064E9E6 /* Foundation.framework */,
+				A196C55E15E391010064E9E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A196C56015E391010064E9E6 /* Exemple App */ = {
+			isa = PBXGroup;
+			children = (
+				A196C56915E391020064E9E6 /* SGAppDelegate.h */,
+				A196C56A15E391020064E9E6 /* SGAppDelegate.m */,
+				A196C56C15E391020064E9E6 /* SGFirstViewController.h */,
+				A196C56D15E391020064E9E6 /* SGFirstViewController.m */,
+				A196C56F15E391020064E9E6 /* first.png */,
+				A196C57115E391020064E9E6 /* first@2x.png */,
+				A196C57315E391020064E9E6 /* SGSecondViewController.h */,
+				A196C57415E391020064E9E6 /* SGSecondViewController.m */,
+				A196C57615E391020064E9E6 /* second.png */,
+				A196C57815E391020064E9E6 /* second@2x.png */,
+				A196C57A15E391020064E9E6 /* SGFirstViewController_iPhone.xib */,
+				A196C57D15E391020064E9E6 /* SGFirstViewController_iPad.xib */,
+				A196C58015E391020064E9E6 /* SGSecondViewController_iPhone.xib */,
+				A196C58315E391020064E9E6 /* SGSecondViewController_iPad.xib */,
+				A196C56115E391010064E9E6 /* Supporting Files */,
+			);
+			path = "Exemple App";
+			sourceTree = "<group>";
+		};
+		A196C56115E391010064E9E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A196C56215E391010064E9E6 /* Exemple App-Info.plist */,
+				A196C56315E391020064E9E6 /* InfoPlist.strings */,
+				A196C56615E391020064E9E6 /* main.m */,
+				A196C56815E391020064E9E6 /* Exemple App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A196C58B15E391100064E9E6 /* SGWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A196C58C15E391640064E9E6 /* Sencha.bundle */,
+				A196C58D15E391640064E9E6 /* SGAxis.h */,
+				A196C58E15E391640064E9E6 /* SGAxis.m */,
+				A196C58F15E391640064E9E6 /* SGBase.h */,
+				A196C59015E391640064E9E6 /* SGBase.m */,
+				A196C59115E391640064E9E6 /* SGLine.h */,
+				A196C59215E391640064E9E6 /* SGLine.m */,
+				A196C59315E391640064E9E6 /* SGPie.h */,
+				A196C59415E391640064E9E6 /* SGPie.m */,
+				A196C59515E391640064E9E6 /* SGWebViewController.h */,
+				A196C59615E391640064E9E6 /* SGWebViewController.m */,
+			);
+			name = SGWebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A196C55515E391010064E9E6 /* Exemple App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A196C58815E391020064E9E6 /* Build configuration list for PBXNativeTarget "Exemple App" */;
+			buildPhases = (
+				A196C55215E391010064E9E6 /* Sources */,
+				A196C55315E391010064E9E6 /* Frameworks */,
+				A196C55415E391010064E9E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exemple App";
+			productName = "Exemple App";
+			productReference = A196C55615E391010064E9E6 /* Exemple App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A196C54D15E391010064E9E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SG;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apexnet.it;
+			};
+			buildConfigurationList = A196C55015E391010064E9E6 /* Build configuration list for PBXProject "Exemple App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A196C54B15E391010064E9E6;
+			productRefGroup = A196C55715E391010064E9E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A196C55515E391010064E9E6 /* Exemple App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A196C55415E391010064E9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A196C56515E391020064E9E6 /* InfoPlist.strings in Resources */,
+				A196C57015E391020064E9E6 /* first.png in Resources */,
+				A196C57215E391020064E9E6 /* first@2x.png in Resources */,
+				A196C57715E391020064E9E6 /* second.png in Resources */,
+				A196C57915E391020064E9E6 /* second@2x.png in Resources */,
+				A196C57C15E391020064E9E6 /* SGFirstViewController_iPhone.xib in Resources */,
+				A196C57F15E391020064E9E6 /* SGFirstViewController_iPad.xib in Resources */,
+				A196C58215E391020064E9E6 /* SGSecondViewController_iPhone.xib in Resources */,
+				A196C58515E391020064E9E6 /* SGSecondViewController_iPad.xib in Resources */,
+				A196C59715E391640064E9E6 /* Sencha.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A196C55215E391010064E9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A196C56715E391020064E9E6 /* main.m in Sources */,
+				A196C56B15E391020064E9E6 /* SGAppDelegate.m in Sources */,
+				A196C56E15E391020064E9E6 /* SGFirstViewController.m in Sources */,
+				A196C57515E391020064E9E6 /* SGSecondViewController.m in Sources */,
+				A196C59815E391640064E9E6 /* SGAxis.m in Sources */,
+				A196C59915E391640064E9E6 /* SGBase.m in Sources */,
+				A196C59A15E391640064E9E6 /* SGLine.m in Sources */,
+				A196C59B15E391640064E9E6 /* SGPie.m in Sources */,
+				A196C59C15E391640064E9E6 /* SGWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A196C56315E391020064E9E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A196C56415E391020064E9E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A196C57A15E391020064E9E6 /* SGFirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A196C57B15E391020064E9E6 /* en */,
+			);
+			name = SGFirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A196C57D15E391020064E9E6 /* SGFirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A196C57E15E391020064E9E6 /* en */,
+			);
+			name = SGFirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		A196C58015E391020064E9E6 /* SGSecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A196C58115E391020064E9E6 /* en */,
+			);
+			name = SGSecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A196C58315E391020064E9E6 /* SGSecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A196C58415E391020064E9E6 /* en */,
+			);
+			name = SGSecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A196C58615E391020064E9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A196C58715E391020064E9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A196C58915E391020064E9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exemple App/Exemple App-Prefix.pch";
+				INFOPLIST_FILE = "Exemple App/Exemple App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A196C58A15E391020064E9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exemple App/Exemple App-Prefix.pch";
+				INFOPLIST_FILE = "Exemple App/Exemple App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A196C55015E391010064E9E6 /* Build configuration list for PBXProject "Exemple App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A196C58615E391020064E9E6 /* Debug */,
+				A196C58715E391020064E9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A196C58815E391020064E9E6 /* Build configuration list for PBXNativeTarget "Exemple App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A196C58915E391020064E9E6 /* Debug */,
+				A196C58A15E391020064E9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A196C54D15E391010064E9E6 /* Project object */;
+}
