@@ -12,20 +12,19 @@
 
 #import "SGSecondViewController.h"
 
+@class SGWebViewController;
+
 @implementation SGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1, *viewController2;
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[SGFirstViewController alloc] initWithNibName:@"SGFirstViewController_iPhone" bundle:nil];
-        viewController2 = [[SGSecondViewController alloc] initWithNibName:@"SGSecondViewController_iPhone" bundle:nil];
-    } else {
-        viewController1 = [[SGFirstViewController alloc] initWithNibName:@"SGFirstViewController_iPad" bundle:nil];
-        viewController2 = [[SGSecondViewController alloc] initWithNibName:@"SGSecondViewController_iPad" bundle:nil];
-    }
+    SGFirstViewController *viewController1 = [[SGFirstViewController alloc] init];
+    viewController1.title = @"Pie";
+    SGSecondViewController *viewController2 = [[SGSecondViewController alloc] init];
+    viewController2.title = @"Lines";
+    
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2];
     self.window.rootViewController = self.tabBarController;

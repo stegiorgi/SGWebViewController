@@ -14,15 +14,7 @@
 		A196C56715E391020064E9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C56615E391020064E9E6 /* main.m */; };
 		A196C56B15E391020064E9E6 /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C56A15E391020064E9E6 /* SGAppDelegate.m */; };
 		A196C56E15E391020064E9E6 /* SGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C56D15E391020064E9E6 /* SGFirstViewController.m */; };
-		A196C57015E391020064E9E6 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A196C56F15E391020064E9E6 /* first.png */; };
-		A196C57215E391020064E9E6 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A196C57115E391020064E9E6 /* first@2x.png */; };
 		A196C57515E391020064E9E6 /* SGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C57415E391020064E9E6 /* SGSecondViewController.m */; };
-		A196C57715E391020064E9E6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A196C57615E391020064E9E6 /* second.png */; };
-		A196C57915E391020064E9E6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A196C57815E391020064E9E6 /* second@2x.png */; };
-		A196C57C15E391020064E9E6 /* SGFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A196C57A15E391020064E9E6 /* SGFirstViewController_iPhone.xib */; };
-		A196C57F15E391020064E9E6 /* SGFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A196C57D15E391020064E9E6 /* SGFirstViewController_iPad.xib */; };
-		A196C58215E391020064E9E6 /* SGSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A196C58015E391020064E9E6 /* SGSecondViewController_iPhone.xib */; };
-		A196C58515E391020064E9E6 /* SGSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A196C58315E391020064E9E6 /* SGSecondViewController_iPad.xib */; };
 		A196C59715E391640064E9E6 /* Sencha.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A196C58C15E391640064E9E6 /* Sencha.bundle */; };
 		A196C59815E391640064E9E6 /* SGAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C58E15E391640064E9E6 /* SGAxis.m */; };
 		A196C59915E391640064E9E6 /* SGBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C59015E391640064E9E6 /* SGBase.m */; };
@@ -48,16 +40,8 @@
 		A196C56A15E391020064E9E6 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
 		A196C56C15E391020064E9E6 /* SGFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGFirstViewController.h; sourceTree = "<group>"; };
 		A196C56D15E391020064E9E6 /* SGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGFirstViewController.m; sourceTree = "<group>"; };
-		A196C56F15E391020064E9E6 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		A196C57115E391020064E9E6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		A196C57315E391020064E9E6 /* SGSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSecondViewController.h; sourceTree = "<group>"; };
 		A196C57415E391020064E9E6 /* SGSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSecondViewController.m; sourceTree = "<group>"; };
-		A196C57615E391020064E9E6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		A196C57815E391020064E9E6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		A196C57B15E391020064E9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGFirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		A196C57E15E391020064E9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGFirstViewController_iPad.xib; sourceTree = "<group>"; };
-		A196C58115E391020064E9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGSecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		A196C58415E391020064E9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGSecondViewController_iPad.xib; sourceTree = "<group>"; };
 		A196C58C15E391640064E9E6 /* Sencha.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Sencha.bundle; path = SGWebViewController/Sencha.bundle; sourceTree = "<group>"; };
 		A196C58D15E391640064E9E6 /* SGAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGAxis.h; path = SGWebViewController/SGAxis.h; sourceTree = "<group>"; };
 		A196C58E15E391640064E9E6 /* SGAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGAxis.m; path = SGWebViewController/SGAxis.m; sourceTree = "<group>"; };
@@ -127,16 +111,8 @@
 				A196C56A15E391020064E9E6 /* SGAppDelegate.m */,
 				A196C56C15E391020064E9E6 /* SGFirstViewController.h */,
 				A196C56D15E391020064E9E6 /* SGFirstViewController.m */,
-				A196C56F15E391020064E9E6 /* first.png */,
-				A196C57115E391020064E9E6 /* first@2x.png */,
 				A196C57315E391020064E9E6 /* SGSecondViewController.h */,
 				A196C57415E391020064E9E6 /* SGSecondViewController.m */,
-				A196C57615E391020064E9E6 /* second.png */,
-				A196C57815E391020064E9E6 /* second@2x.png */,
-				A196C57A15E391020064E9E6 /* SGFirstViewController_iPhone.xib */,
-				A196C57D15E391020064E9E6 /* SGFirstViewController_iPad.xib */,
-				A196C58015E391020064E9E6 /* SGSecondViewController_iPhone.xib */,
-				A196C58315E391020064E9E6 /* SGSecondViewController_iPad.xib */,
 				A196C56115E391010064E9E6 /* Supporting Files */,
 			);
 			path = "Exemple App";
@@ -254,14 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A196C56515E391020064E9E6 /* InfoPlist.strings in Resources */,
-				A196C57015E391020064E9E6 /* first.png in Resources */,
-				A196C57215E391020064E9E6 /* first@2x.png in Resources */,
-				A196C57715E391020064E9E6 /* second.png in Resources */,
-				A196C57915E391020064E9E6 /* second@2x.png in Resources */,
-				A196C57C15E391020064E9E6 /* SGFirstViewController_iPhone.xib in Resources */,
-				A196C57F15E391020064E9E6 /* SGFirstViewController_iPad.xib in Resources */,
-				A196C58215E391020064E9E6 /* SGSecondViewController_iPhone.xib in Resources */,
-				A196C58515E391020064E9E6 /* SGSecondViewController_iPad.xib in Resources */,
 				A196C59715E391640064E9E6 /* Sencha.bundle in Resources */,
 				A196C5BC15E396DB0064E9E6 /* CHANGELOG.md in Resources */,
 				A196C5BE15E396DB0064E9E6 /* README.md in Resources */,
@@ -298,38 +266,6 @@
 				A196C56415E391020064E9E6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A196C57A15E391020064E9E6 /* SGFirstViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A196C57B15E391020064E9E6 /* en */,
-			);
-			name = SGFirstViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		A196C57D15E391020064E9E6 /* SGFirstViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A196C57E15E391020064E9E6 /* en */,
-			);
-			name = SGFirstViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		A196C58015E391020064E9E6 /* SGSecondViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A196C58115E391020064E9E6 /* en */,
-			);
-			name = SGSecondViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		A196C58315E391020064E9E6 /* SGSecondViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A196C58415E391020064E9E6 /* en */,
-			);
-			name = SGSecondViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

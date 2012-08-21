@@ -8,41 +8,84 @@
 
 #import "SGSecondViewController.h"
 
-@interface SGSecondViewController ()
+@interface SGSecondViewController () {
+    BOOL fistAppear;
+}
 
 @end
 
 @implementation SGSecondViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
-    }
-    return self;
-}
-							
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    fistAppear = YES;
 }
 
-- (void)viewDidUnload
+- (void)viewWillAppear:(BOOL)animated
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
+    [super viewWillAppear:animated];
+    if (fistAppear) {
+        SGLine *line = [[SGLine alloc] init];
+        line.dataSource = self;
+        [line reloadData];
+        [self loadChartWithHTML:line.htmlIndex senchaBundleURL:line.baseURL];
+        fistAppear = NO;
     }
+}
+
+#pragma mark - SGLineDataSource
+
+- (NSInteger)numberOfLinesInChart
+{
+    return 2;
+}
+
+- (NSInteger)numberOfPointsInLines
+{
+    return 10;
+}
+
+- (id)xForPoint:(NSInteger)point
+{
+    return [NSString stringWithFormat:@"%d",point];
+}
+
+- (id)yForPoint:(NSInteger)point inLine:(NSInteger)line
+{
+    return (line == 0)
+    ? [NSNumber numberWithInteger:arc4random_uniform(33)]
+    : [NSNumber numberWithInteger:arc4random_uniform(33)];
+}
+
+- (NSString *)descForPoint:(NSInteger)point
+{
+    return [NSString stringWithFormat:@"Description here..."];
+}
+
+- (BOOL)shouldActivateItemInfoInteraction
+{
+    return YES;
+}
+
+- (BOOL)showMarkersForLine:(NSInteger)line
+{
+    return (line == 0) ? NO : YES;
+}
+
+- (NSNumber *)smoothValueForLine:(NSInteger)line
+{
+    return (line == 0)
+    ? [[NSNumber alloc]initWithInt:0]
+    : [[NSNumber alloc]initWithInt:4];
+}
+
+- (NSString *)titleForAxisInPosition:(axisPosition)position
+{
+    if (position == axisPositionLeft || position == axisPositionBottom) {
+        return [NSString string];
+    }
+    return nil;
 }
 
 @end

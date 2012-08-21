@@ -8,41 +8,57 @@
 
 #import "SGFirstViewController.h"
 
-@interface SGFirstViewController ()
+@interface SGFirstViewController () {
+    BOOL fistAppear;
+}
 
 @end
 
 @implementation SGFirstViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
-    }
-    return self;
-}
-							
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    fistAppear = YES;
 }
 
-- (void)viewDidUnload
+- (void)viewWillAppear:(BOOL)animated
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
+    [super viewWillAppear:animated];
+    if (fistAppear) {
+        SGPie *pie = [[SGPie alloc] init];
+        pie.dataSource = self;
+        [pie reloadData];
+        [self loadChartWithHTML:pie.htmlIndex senchaBundleURL:pie.baseURL];
+        fistAppear = NO;
     }
+}
+
+#pragma mark - SGPieDataSource
+
+- (NSInteger)numberOfSlicesInPie
+{
+    return 5;
+}
+
+- (NSString *)labelForSlice:(NSInteger)num
+{
+    return [NSString stringWithFormat:@"Slice number %d",num];
+}
+
+- (NSNumber *)valueForSlice:(NSInteger)num
+{    
+    return [NSNumber numberWithInteger:num];
+}
+
+- (BOOL)shouldShowLegend
+{
+    return YES;
+}
+
+- (NSString *)formatSlicesLabels
+{
+    return [NSString stringWithFormat:@"{key}"];
 }
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SGWebViewController.h"
 
-@interface SGFirstViewController : UIViewController
+@interface SGFirstViewController : SGWebViewController <SGPieDataSource>
 
 @end
