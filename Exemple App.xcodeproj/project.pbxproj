@@ -29,6 +29,10 @@
 		A196C59A15E391640064E9E6 /* SGLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C59215E391640064E9E6 /* SGLine.m */; };
 		A196C59B15E391640064E9E6 /* SGPie.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C59415E391640064E9E6 /* SGPie.m */; };
 		A196C59C15E391640064E9E6 /* SGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C59615E391640064E9E6 /* SGWebViewController.m */; };
+		A196C5BC15E396DB0064E9E6 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = A196C5B815E396DB0064E9E6 /* CHANGELOG.md */; };
+		A196C5BD15E396DB0064E9E6 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C5BA15E396DB0064E9E6 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A196C5BE15E396DB0064E9E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A196C5BB15E396DB0064E9E6 /* README.md */; };
+		A196C60115E397E40064E9E6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A196C60015E397E40064E9E6 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +69,12 @@
 		A196C59415E391640064E9E6 /* SGPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGPie.m; path = SGWebViewController/SGPie.m; sourceTree = "<group>"; };
 		A196C59515E391640064E9E6 /* SGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGWebViewController.h; path = SGWebViewController/SGWebViewController.h; sourceTree = "<group>"; };
 		A196C59615E391640064E9E6 /* SGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGWebViewController.m; path = SGWebViewController/SGWebViewController.m; sourceTree = "<group>"; };
+		A196C5B815E396DB0064E9E6 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		A196C5B915E396DB0064E9E6 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		A196C5BA15E396DB0064E9E6 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		A196C5BB15E396DB0064E9E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A196C5FF15E397E40064E9E6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = lib/MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		A196C60015E397E40064E9E6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = lib/MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,7 @@
 		A196C54B15E391010064E9E6 = {
 			isa = PBXGroup;
 			children = (
+				A196C5B615E396C60064E9E6 /* Submodules */,
 				A196C58B15E391100064E9E6 /* SGWebViewController */,
 				A196C56015E391010064E9E6 /* Exemple App */,
 				A196C55915E391010064E9E6 /* Frameworks */,
@@ -160,6 +171,36 @@
 			name = SGWebViewController;
 			sourceTree = "<group>";
 		};
+		A196C5B615E396C60064E9E6 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				A196C5FE15E397CF0064E9E6 /* MBProgressHUD */,
+				A196C5B715E396DB0064E9E6 /* JSONKit */,
+			);
+			name = Submodules;
+			sourceTree = "<group>";
+		};
+		A196C5B715E396DB0064E9E6 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				A196C5B815E396DB0064E9E6 /* CHANGELOG.md */,
+				A196C5B915E396DB0064E9E6 /* JSONKit.h */,
+				A196C5BA15E396DB0064E9E6 /* JSONKit.m */,
+				A196C5BB15E396DB0064E9E6 /* README.md */,
+			);
+			name = JSONKit;
+			path = lib/JSONKit;
+			sourceTree = "<group>";
+		};
+		A196C5FE15E397CF0064E9E6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A196C5FF15E397E40064E9E6 /* MBProgressHUD.h */,
+				A196C60015E397E40064E9E6 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,6 +263,8 @@
 				A196C58215E391020064E9E6 /* SGSecondViewController_iPhone.xib in Resources */,
 				A196C58515E391020064E9E6 /* SGSecondViewController_iPad.xib in Resources */,
 				A196C59715E391640064E9E6 /* Sencha.bundle in Resources */,
+				A196C5BC15E396DB0064E9E6 /* CHANGELOG.md in Resources */,
+				A196C5BE15E396DB0064E9E6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +284,8 @@
 				A196C59A15E391640064E9E6 /* SGLine.m in Sources */,
 				A196C59B15E391640064E9E6 /* SGPie.m in Sources */,
 				A196C59C15E391640064E9E6 /* SGWebViewController.m in Sources */,
+				A196C5BD15E396DB0064E9E6 /* JSONKit.m in Sources */,
+				A196C60115E397E40064E9E6 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

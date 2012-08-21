@@ -1,0 +1,6 @@
+[submodule "lib/JSONKit"]
+	path = lib/JSONKit
+	url = git://github.com/johnezang/JSONKit.git
+[submodule "lib/MBProgressHUD"]
+	path = lib/MBProgressHUD
+	url = git://github.com/jdg/MBProgressHUD.git
